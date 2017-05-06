@@ -32,8 +32,8 @@ public class SadovoParkove extends JFrame {
 		l_Nazva.setBounds(0, 0, 794, 78);
 		getContentPane().add(l_Nazva);
 
-		b_Nazad = new JButton("Назад");
-		b_Nazad.setBounds(661, 33, 133, 34);
+		b_Nazad = new JButton("Меню");
+		b_Nazad.setBounds(661, 0, 133, 34);
 		b_Nazad.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				new Menu("Рослинне господпрство");

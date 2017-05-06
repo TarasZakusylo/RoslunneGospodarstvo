@@ -14,11 +14,11 @@ import javax.swing.SwingConstants;
 public class Menu extends JFrame {
 
 	private static final long serialVersionUID = 1L;
+	
 	private JLabel l_Nazva;
 	private JButton b_Promuslove;
 	private JButton b_Domahne;
 	private JButton b_Kimnatne;
-	private JLabel l_Zakk;
 	private JLabel l_logo;
 	private JButton b_SadovoParkove;
 
@@ -81,11 +81,6 @@ public class Menu extends JFrame {
 		b_Kimnatne.setFont(new Font("Times New Roman", Font.BOLD, 20));
 		b_Kimnatne.setBounds(398, 487, 354, 46);
 		getContentPane().add(b_Kimnatne);
-
-		l_Zakk = new JLabel("");
-		l_Zakk.setBounds(698, 481, 84, 71);
-		l_Zakk.setIcon(new ImageIcon("res/Zakk.png"));
-		getContentPane().add(l_Zakk);
 		
 		l_logo = new JLabel("");
 		l_logo.setBounds(0, 0, 794, 565);
