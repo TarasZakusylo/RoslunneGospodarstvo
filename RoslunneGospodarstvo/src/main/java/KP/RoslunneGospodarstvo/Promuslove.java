@@ -68,7 +68,7 @@ public class Promuslove extends JFrame {
 		b_Nazad.setBounds(661, 0, 133, 34);
 		b_Nazad.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				new Menu("Енергозбереження дому");
+				new Menu("Рослинне господарство");
 				setVisible(false);
 			}
 		});
