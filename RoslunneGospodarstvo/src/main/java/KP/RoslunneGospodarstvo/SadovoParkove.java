@@ -13,6 +13,7 @@ import javax.swing.SwingConstants;
 public class SadovoParkove extends JFrame {
 
 	private static final long serialVersionUID = 1L;
+	
 	private JLabel l_Nazva;
 	private JButton b_Nazad;
 
