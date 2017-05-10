@@ -1,12 +1,14 @@
 package KP.RoslunneGospodarstvo;
 
 import java.awt.Color;
+import java.awt.Desktop;
 import java.awt.Font;
 import java.awt.Panel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.net.URI;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -50,6 +52,20 @@ public class KimnatneResultatu extends JFrame {
 	private JLabel l_Bonsai_Kartunka2;
 	private JLabel l_Bonsai;
 	private JScrollPane scrollPane_1;
+	private JLabel l_fonKupivli;
+	private JLabel l_Galsad;
+	private JLabel l_Galsad_logo;
+	private JLabel l_Florium;
+	private JLabel l_2_logo;
+	private JLabel l_Landscape;
+	private JLabel l_4_logo;
+	private JLabel l_Greensad;
+	private JLabel l_3_logo;
+	private JLabel l_Bigl;
+	private JLabel l_5_logo;
+	
+	Desktop desktop = Desktop.getDesktop();
+	private JLabel l_Komentar;
 
 	public KimnatneResultatu(String string, int i_putanna1, int i_putanna2, int i_putanna3, int i_slider_putanna4,
 			int i_slider_putanna5, int i_putanna6, int i_putanna7, int i_putanna8, int i_checkBox1_0, int i_checkBox1_1,
@@ -254,6 +270,174 @@ public class KimnatneResultatu extends JFrame {
 
 		panel_Kupivla = new Panel();
 		tabbedPane.addTab("Купівля", null, panel_Kupivla, null);
+		panel_Kupivla.setLayout(null);
+		
+		l_Galsad = new JLabel("Galsad");
+		l_Galsad.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				try {
+					desktop.browse(new URI("http://galsad.com.ua/goods.php/kimnatni/"));
+				} catch (Exception e1) {
+				}
+			}
+		});
+		l_Galsad.setHorizontalAlignment(SwingConstants.CENTER);
+		l_Galsad.setFont(new Font("Segoe UI", Font.BOLD, 35));
+		l_Galsad.setForeground(Color.MAGENTA);
+		l_Galsad.setBounds(41, 48, 193, 57);
+		panel_Kupivla.add(l_Galsad);
+		
+		l_Galsad_logo = new JLabel("");
+		l_Galsad_logo.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				try {
+					desktop.browse(new URI("http://galsad.com.ua/goods.php/kimnatni/"));
+				} catch (Exception e1) {
+				}
+			}
+		});
+		l_Galsad_logo.setHorizontalAlignment(SwingConstants.CENTER);
+		l_Galsad_logo.setBounds(421, 0, 226, 105);
+		l_Galsad_logo.setIcon(new ImageIcon("res/KupivlaKartunka1.png"));
+		panel_Kupivla.add(l_Galsad_logo);
+		
+		l_Florium = new JLabel("Florium");
+		l_Florium.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				try {
+					desktop.browse(new URI("https://florium.ua/ua/room-bulbs/"));
+				} catch (Exception e1) {
+				}
+			}
+		});
+		l_Florium.setHorizontalAlignment(SwingConstants.CENTER);
+		l_Florium.setFont(new Font("Segoe UI", Font.BOLD, 35));
+		l_Florium.setForeground(Color.MAGENTA);
+		l_Florium.setBounds(41, 127, 193, 57);
+		panel_Kupivla.add(l_Florium);
+		
+		l_2_logo = new JLabel("");
+		l_2_logo.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				try {
+					desktop.browse(new URI("https://florium.ua/ua/room-bulbs/"));
+				} catch (Exception e1) {
+				}
+			}
+		});
+		l_2_logo.setHorizontalAlignment(SwingConstants.CENTER);
+		l_2_logo.setBounds(421, 118, 226, 66);
+		l_2_logo.setIcon(new ImageIcon("res/KupivlaKartunka2.jpg"));
+		panel_Kupivla.add(l_2_logo);
+		
+		l_Landscape = new JLabel("Landscape");
+		l_Landscape.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				try {
+					desktop.browse(new URI("http://landscape.ua/ua/komnatnye-rasteniya"));
+				} catch (Exception e1) {
+				}
+			}
+		});
+		l_Landscape.setHorizontalAlignment(SwingConstants.CENTER);
+		l_Landscape.setFont(new Font("Segoe UI", Font.BOLD, 35));
+		l_Landscape.setForeground(Color.MAGENTA);
+		l_Landscape.setBounds(41, 283, 193, 57);
+		panel_Kupivla.add(l_Landscape);
+		
+		l_4_logo = new JLabel("");
+		l_4_logo.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				try {
+					desktop.browse(new URI("http://landscape.ua/ua/komnatnye-rasteniya"));
+				} catch (Exception e1) {
+				}
+			}
+		});
+		l_4_logo.setHorizontalAlignment(SwingConstants.CENTER);
+		l_4_logo.setBounds(421, 283, 226, 57);
+		l_4_logo.setIcon(new ImageIcon("res/KupivlaKartunka4.png"));
+		panel_Kupivla.add(l_4_logo);
+				
+		l_Greensad = new JLabel("Greensad");
+		l_Greensad.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				try {
+					desktop.browse(new URI("http://greensad.ua/ua/category/domashnie-rastenija-i-cvety/"));
+				} catch (Exception e1) {
+				}
+			}
+		});
+		l_Greensad.setHorizontalAlignment(SwingConstants.CENTER);
+		l_Greensad.setFont(new Font("Segoe UI", Font.BOLD, 35));
+		l_Greensad.setForeground(Color.MAGENTA);
+		l_Greensad.setBounds(41, 353, 193, 57);
+		panel_Kupivla.add(l_Greensad);
+		
+		l_3_logo = new JLabel("");
+		l_3_logo.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				try {
+					desktop.browse(new URI("http://greensad.ua/ua/category/domashnie-rastenija-i-cvety/"));
+				} catch (Exception e1) {
+				}
+			}
+		});
+		l_3_logo.setHorizontalAlignment(SwingConstants.CENTER);
+		l_3_logo.setBounds(421, 366, 226, 57);
+		l_3_logo.setIcon(new ImageIcon("res/KupivlaKartunka3.png"));
+		panel_Kupivla.add(l_3_logo);
+		
+		l_Bigl = new JLabel("Bigl");
+		l_Bigl.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				try {
+					desktop.browse(new URI("https://bigl.ua/Rasteniya-gorshechnye?utm_campaign=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0&utm_term=&gclid=COTBvPHe5dMCFVmLsgodjskKag"));
+				} catch (Exception e1) {
+				}
+			}
+		});
+		l_Bigl.setHorizontalAlignment(SwingConstants.CENTER);
+		l_Bigl.setFont(new Font("Segoe UI", Font.BOLD, 35));
+		l_Bigl.setForeground(Color.MAGENTA);
+		l_Bigl.setBounds(41, 208, 193, 57);
+		panel_Kupivla.add(l_Bigl);
+		
+		l_5_logo = new JLabel("");
+		l_5_logo.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				try {
+					desktop.browse(new URI("https://bigl.ua/Rasteniya-gorshechnye?utm_campaign=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0&utm_term=&gclid=COTBvPHe5dMCFVmLsgodjskKag"));
+				} catch (Exception e1) {
+				}
+			}
+		});
+		l_5_logo.setHorizontalAlignment(SwingConstants.CENTER);
+		l_5_logo.setBounds(421, 197, 226, 57);
+		l_5_logo.setIcon(new ImageIcon("res/KupivlaKartunka5.png"));
+		panel_Kupivla.add(l_5_logo);
+		
+		l_Komentar = new JLabel("Будь ласка, оберіть сервіс продажу кімнатних рослин");
+		l_Komentar.setForeground(Color.WHITE);
+		l_Komentar.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+		l_Komentar.setHorizontalAlignment(SwingConstants.CENTER);
+		l_Komentar.setBounds(0, 433, 765, 26);
+		panel_Kupivla.add(l_Komentar);
+		
+		l_fonKupivli = new JLabel("");
+		l_fonKupivli.setBounds(0, 0, 765, 459);
+		l_fonKupivli.setIcon(new ImageIcon("res/fon_KimnatneResultatKupivla.jpg"));
+		panel_Kupivla.add(l_fonKupivli);
 
 		panel_Doglad = new Panel();
 		tabbedPane.addTab("Догляд", null, panel_Doglad, null);
