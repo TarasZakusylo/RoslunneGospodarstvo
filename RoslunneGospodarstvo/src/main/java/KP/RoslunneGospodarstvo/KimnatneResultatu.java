@@ -150,6 +150,28 @@ public class KimnatneResultatu extends JFrame {
 	private JScrollPane scrollPane_13;
 	private JLabel l_Hkidnuku12;
 	private JScrollPane scrollPane_14;
+	private JTabbedPane tabbedPane_2;
+	private JPanel panel_Hvoroba1;
+	private JPanel panel_Hvoroba2;
+	private JPanel panel_Hvoroba3;
+	private JPanel panel_Hvoroba4;
+	private JPanel panel_Hvoroba5;
+	private JPanel panel_Hvoroba6;
+	private JPanel panel_Hvoroba7;
+	private JLabel l_Hvorovu1;
+	private JLabel l_Hvorovu2;
+	private JLabel l_Hvorovu3;
+	private JLabel l_Hvorovu4;
+	private JLabel l_Hvorovu5;
+	private JLabel l_Hvorovu6;
+	private JLabel l_Hvorovu7;
+	private JScrollPane scrollPane_15;
+	private JScrollPane scrollPane_16;
+	private JScrollPane scrollPane_17;
+	private JScrollPane scrollPane_18;
+	private JScrollPane scrollPane_19;
+	private JScrollPane scrollPane_20;
+	private JScrollPane scrollPane_21;
 
 	public KimnatneResultatu(String string, int i_putanna1, int i_putanna2, int i_putanna3, int i_slider_putanna4,
 			int i_slider_putanna5, int i_putanna6, int i_putanna7, int i_putanna8, int i_checkBox1_0, int i_checkBox1_1,
@@ -789,6 +811,100 @@ public class KimnatneResultatu extends JFrame {
 
 		panel_Hvorobu = new Panel();
 		tabbedPane.addTab("Хвороби", null, panel_Hvorobu, null);
+		panel_Hvorobu.setLayout(null);
+		
+		tabbedPane_2 = new JTabbedPane(JTabbedPane.TOP);
+		tabbedPane_2.setBounds(0, 0, 765, 459);
+		panel_Hvorobu.add(tabbedPane_2);
+		
+		panel_Hvoroba1 = new JPanel();
+		tabbedPane_2.addTab("Борошниста роса", null, panel_Hvoroba1, null);
+		panel_Hvoroba1.setLayout(null);
+		
+		scrollPane_21 = new JScrollPane();
+		scrollPane_21.setBounds(0, 0, 760, 429);
+		panel_Hvoroba1.add(scrollPane_21);
+		
+		l_Hvorovu1 = new JLabel("");
+		scrollPane_21.setViewportView(l_Hvorovu1);
+		l_Hvorovu1.setIcon(new ImageIcon("res/Hvorobu1.PNG"));
+		
+		panel_Hvoroba2 = new JPanel();
+		tabbedPane_2.addTab("Антракноз", null, panel_Hvoroba2, null);
+		panel_Hvoroba2.setLayout(null);
+		
+		scrollPane_20 = new JScrollPane();
+		scrollPane_20.setBounds(0, 0, 760, 429);
+		panel_Hvoroba2.add(scrollPane_20);
+		
+		l_Hvorovu2 = new JLabel("");
+		scrollPane_20.setViewportView(l_Hvorovu2);
+		l_Hvorovu2.setIcon(new ImageIcon("res/Hvorobu2.PNG"));
+		
+		panel_Hvoroba3 = new JPanel();
+		tabbedPane_2.addTab("Фузаріоз", null, panel_Hvoroba3, null);
+		panel_Hvoroba3.setLayout(null);
+		
+		scrollPane_19 = new JScrollPane();
+		scrollPane_19.setBounds(0, 0, 760, 429);
+		panel_Hvoroba3.add(scrollPane_19);
+		
+		l_Hvorovu3 = new JLabel("");
+		scrollPane_19.setViewportView(l_Hvorovu3);
+		l_Hvorovu3.setIcon(new ImageIcon("res/Hvorobu3.PNG"));
+		
+		panel_Hvoroba4 = new JPanel();
+		tabbedPane_2.addTab("Сіра гниль", null, panel_Hvoroba4, null);
+		panel_Hvoroba4.setLayout(null);
+		
+		scrollPane_18 = new JScrollPane();
+		scrollPane_18.setBounds(0, 0, 760, 429);
+		panel_Hvoroba4.add(scrollPane_18);
+		
+		l_Hvorovu4 = new JLabel("");
+		scrollPane_18.setViewportView(l_Hvorovu4);
+		l_Hvorovu4.setIcon(new ImageIcon("res/Hvorobu4.PNG"));
+		
+		panel_Hvoroba5 = new JPanel();
+		tabbedPane_2.addTab("Септоріоз", null, panel_Hvoroba5, null);
+		panel_Hvoroba5.setLayout(null);
+		
+		scrollPane_17 = new JScrollPane();
+		scrollPane_17.setBounds(0, 0, 760, 429);
+		panel_Hvoroba5.add(scrollPane_17);
+		
+		l_Hvorovu5 = new JLabel("");
+		scrollPane_17.setViewportView(l_Hvorovu5);
+		l_Hvorovu5.setIcon(new ImageIcon("res/Hvorobu5.PNG"));
+		
+		panel_Hvoroba6 = new JPanel();
+		tabbedPane_2.addTab("Коренева гниль", null, panel_Hvoroba6, null);
+		panel_Hvoroba6.setLayout(null);
+		
+		scrollPane_16 = new JScrollPane();
+		scrollPane_16.setBounds(0, 0, 760, 429);
+		panel_Hvoroba6.add(scrollPane_16);
+		
+		l_Hvorovu6 = new JLabel("");
+		scrollPane_16.setViewportView(l_Hvorovu6);
+		l_Hvorovu6.setIcon(new ImageIcon("res/Hvorobu6.PNG"));
+		
+		panel_Hvoroba7 = new JPanel();
+		tabbedPane_2.addTab("Жовтуха квітів", null, panel_Hvoroba7, null);
+		panel_Hvoroba7.setLayout(null);
+		
+		scrollPane_15 = new JScrollPane();
+		scrollPane_15.setBounds(0, 0, 760, 429);
+		panel_Hvoroba7.add(scrollPane_15);
+		
+		l_Hvorovu7 = new JLabel("");
+		scrollPane_15.setViewportView(l_Hvorovu7);
+		l_Hvorovu7.setIcon(new ImageIcon("res/Hvorobu7.PNG"));
+		
+		l_fonKimnatne = new JLabel("");
+		l_fonKimnatne.setBounds(0, 0, 765, 459);
+		l_fonKimnatne.setIcon(new ImageIcon("res/fon_KimnatneResultatKupivla.jpg"));
+		panel_Hvorobu.add(l_fonKimnatne);
 
 		panel_Rozmnogenna = new Panel();
 		tabbedPane.addTab("Розмноження", null, panel_Rozmnogenna, null);
