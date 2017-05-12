@@ -172,6 +172,45 @@ public class KimnatneResultatu extends JFrame {
 	private JScrollPane scrollPane_19;
 	private JScrollPane scrollPane_20;
 	private JScrollPane scrollPane_21;
+	private JTabbedPane tabbedPane_3;
+	private JPanel panel_Rozmnogenna1;
+	private JPanel panel_Rozmnogenna2;
+	private JLabel l_RozmnogennaNasinnaKartunka;
+	private JLabel l_RozmnogennaNasinna2;
+	private JLabel l_RozmnogennaNasinna3;
+	private JLabel l_RozmnogennaNasinna4;
+	private JLabel l_RozmnogennaNasinnaStrilka1;
+	private JLabel l_RozmnogennaNasinnaStrilka2;
+	private JLabel l_RozmnogennaNasinnaStrilka3;
+	private JScrollPane scrollPane_22;
+	private JScrollPane scrollPane_23;
+
+	String s_Rozmnogena1_1 = "Насінням розмножують рідше, ніж іншими способами, але цей спосіб не стає від цього менш захоплюючим, до того ж, за допомогою розмноження насінням можна домогтися появи нових форм рослин, що відрізняються забарвленням квіток або листя.\nТим, хто тільки починає вирощування рослин з насіння, краще тренуватися на однорічних рослинах – це більш легкий спосіб, до того ж він дає швидкі результати. Після цього можна спробувати вирощувати більш складні рослини з насіння – сенполії, кактуси, папороті. Чим складніше рослина і розмноження його насінням, тим цікавіше це заняття. В основному багаторічні рослини ростуть повільно, тому до того, як вони виростуть до великих розмірів, може пройти не один рік – перед посадкою насіння потрібно дуже уважно прочитати на упаковці, як і коли слід сіяти насіння. При посадці невеликої кількості насіння, їх висівають в горщиках, а при великих кількостях – на підносі.";
+	String s_Rozmnogena1_2 = "Основною умовою посіву насіння є їх свіжість і відсутність хвороб або шкідників. У січні-лютому сіють насіння, якому потрібно багато часу, щоб прорости. Насіння, яке проростає швидко, висівають в березні-квітні – якщо посадити його раніше, то сіянці будуть витягатися, оскільки їм не вистачатиме освітлення. Насіння аспарагуса, камелій, пальм та інших рослин, у насіння яких є тверда шкірка, перед посадкою необхідно обробити: чи обшпарити окропом насіння, або замочити його на три-п'ять днів, або надрізати шкірочку насіння, або обробити соком алое – листя алое без пошкоджень необхідно протягом 25 днів зберігати при температурі в три градуси, після чого віджати сік і замочити в ньому насіння. Оброблене алое насіння зійде швидше, а період цвітіння у рослини настане раніше.\nВисівати насіння потрібно або в горщики, або в підноси, попередньо продезинфікувавши грунт один-два рази окропом. Винятком є посів насіння вересових рослин.";
+	String s_Rozmnogena1_3 = "Посів на піднос. Зазвичай піднос наповнюється сумішшю з торфу і глини, тому що ця суміш підходить майже для всього насіння. Використання готових субстратів для кімнатних рослин не рекомендується, тому що в них міститься дуже багато поживних речовин, що призведе до придушення проростання насіння. Землю в контейнері необхідно вирівняти за допомогою шматка твердої пластмаси або дощечки, після чого злегка утрамбувати її. На рівній поверхні грунту потрібно рівномірно розподілити насіння, після чого посипати їх тоненьким шаром землі, але тільки в тому випадку, якщо на упаковці з насінням не сказано, що вони повинні бути на світлі, або якщо вони не дуже дрібні. Шар грунту, що посипаємо зверху, повинен бути рівний товщині насіння – можна використовувати сито, щоб рівномірно розподілити землю. Необхідно акуратно полити (можна теж використовувати сито), після чого піднос накривається склом або ставиться в теплицю. Інформацію про температуру і кількість світла можна прочитати на упаковці з насінням.\n"
+			+ "Посів в горщик. У горщику має бути викладений якісний дренаж з гальки, дрібного гравію і крупного піску. Зверху насипають легкий субстрат і злегка утрамбовують і вирівнюють його. Насіння треба розподілити в горщику рівномірно. Як і при посадці на підніс, необхідно насіння посипати землею, товщина якої повинна дорівнювати товщині насіння. Землю поливають з розпилювача або нижнім поливом (рівень води в ємності повинен бути нижче рівня землі в горщику). Коли верхній шар субстрату стане вологим, потрібно вийняти горщик з води і дати стекти зайвому, після чого горщик поміщається в тепличку і накривається целофановою плівкою або склом. Відстань від скла до субстрату, – якщо сіялесь дрібне насіння, – має дорівнювати 1 сантиметру, а при посадці великого насіння – півтора-два сантиметри.";
+	String s_Rozmnogena1_4 = "Посіяне насіння потрібно час від часу поливати нижнім поливом, обприскувати субстрат, періодично провітрювати і протирати від вологи, що зібрався під склом. Потрібно бути акуратним, бо і перезволоження і пересушування дуже шкідливі. Коли насіння зійде, необхідно прибрати скло, а саму ємність з паростками присувають ближче до світла, але на пару перших днів забезпечують розсіяне освітлення.\n"
+			+ "Пікірування сіянців. Щоб у рослини утворилися міцні корені, при розмноженні насінням потрібно проводити пікірування – зазвичай це робиться два-три рази, і з кожним разом грунт повинен бути більш поживним. Деякі рослини потрібно пікірувати чотири-п'ять разів, а інші пікірування взагалі не переносять, тому більш детально читайте про розмноження насінням конкретних рослин в «Енциклопедії від А до Я». Пікірувати можна загостреним кілочком, зробленого хоч і зі звичайного олівця. Однією рукою встромляють в землю кілочок біля сіянця, другою – піднімають саджанець, злегка витягаючи його з субстрату. Пікірувати рослину потрібно в злегка вологий грунт, а сама рослина потребує обприскування. Щоб після пікірування рослина вкоренилася краще, ємність з паростками можна накрити склом на пару днів.\n"
+			+ "Приклад розмноження насінням Адениума можна побачити на фотографіях.";
+
+	String s_Rozmnogena2_1 = "Спосіб розмноження стебловими живцями один з найбільш поширений серед квітникарів, у зв'язку з тим, що дуже велика кількість кімнатних рослин можна розмножувати таким чином. Різні рослини вимагають різного догляду: одним для укорінення досить бути опущеними в банку з водою; іншим потрібен родючий субстрат, тепличні умови, плюс обробка гормонами росту."
+			+ "\nУ великої кількості кімнатних рослин, які розмножують живцями, зрізають верхню частину пагона навесні або влітку. Розмножуючи Фікус або Олеандр, зрізають задерев'янілу частину гілки, а у Драцени або Дифенбахії для розмноження зрізається стовбур на відстані п'яти сантиметрів від листя.";
+	String s_Rozmnogena2_2 = "Ніж для зрізання живців повинен бути чистим і дуже гострим, а сам зріз робиться відразу під вузлом під кутом в 45 градусів. Різати потрібно обережно, щоб не пошкодити гілку. Перед пересадкою сукулентів і кактусів, живці необхідно підсушити перед посадкою, тому що в їх листі накопичується занадто багато води. Розмножуючи рослини, трав'янисті живці необхідно садити не глибше 2 см, а задерев'янілі живці садять не набагато глибше. Живці значно краще і швидше вкорінюються при високій вологості повітря, тому ємність з висадженими живцями необхідно накрити склом або целофаном. Винятком є Герань, Фуксія і м'ясисті і соковиті види рослин.\n"
+			+ "Місце зрізу рослини, що містять молочний сік, перед посадкою необхідно помістити в теплу воду і тримати там, доки сік не перестане виділятися. Після цього місце зрізу потрібно посипати дуже дрібним деревним вугіллям (краще – товченим).\nВарто укорінювати живці, застосовуючи стимулятори росту, якщо живець був зрізаний у несприятливе для розмноження пору року, або живці цього роду рослин погано вкорінюються. Готується горщик з грунтом, паличкою або пальцем робиться поглиблення в землі, потім живець занурюють у спеціальний порошок, після чого розміщують в поглиблення в грунті і притискають; в кінці горщик потрібно накрити склом або поліетиленом. Наберіться терпіння, бо на вкорінення живця може піти досить багато часу.";
+	String s_Rozmnogena2_3 = "Ємкість з живцями потрібно притіняти від прямих сонячних променів; скло або пакет необхідно протирати від конденсату, що збирається під ними, а грунт з живцями регулярно обприскувати; провітрювати контейнер потрібно з ранку і ввечері. Живці, які загнили, необхідно прибрати з ємкості. Живець, що ледь почав гнити, можна врятувати – потрібно зрізати загнилу частину і знову помістити у воду з розведеним у ній активованим вугіллям. Коли живці пустять коріння, їх пересаджують в індивідуальні горщики. Перші кілька днів молоді рослини потрібно притіняти від прямих променів.\n"
+			+ "Приклад розмноження живцями Аденіума можна побачити на фотографіях.";
+
+	private JTextPane textPane_RozmnogennaNasinnaText;
+	private JTextPane textPane_RozmnogennaJuvecText;
+	private JLabel l_RozmnogennaJuvec1;
+	private JLabel l_RozmnogennaJuvecStrilka1;
+	private JLabel l_RozmnogennaJuvec2;
+	private JLabel l_RozmnogennaJuvecStrilka2;
+	private JLabel l_RozmnogennaJuvec3;
+	private JScrollPane scrollPane_24;
+	private JLabel l_RozmnogennaNasinna1;
+	private JLabel l_RozmnogennaJuvecKartunka;
+	private JScrollPane scrollPane_26;
 
 	public KimnatneResultatu(String string, int i_putanna1, int i_putanna2, int i_putanna3, int i_slider_putanna4,
 			int i_slider_putanna5, int i_putanna6, int i_putanna7, int i_putanna8, int i_checkBox1_0, int i_checkBox1_1,
@@ -809,105 +848,366 @@ public class KimnatneResultatu extends JFrame {
 
 		}
 
-		panel_Hvorobu = new Panel();
-		tabbedPane.addTab("Хвороби", null, panel_Hvorobu, null);
-		panel_Hvorobu.setLayout(null);
-		
-		tabbedPane_2 = new JTabbedPane(JTabbedPane.TOP);
-		tabbedPane_2.setBounds(0, 0, 765, 459);
-		panel_Hvorobu.add(tabbedPane_2);
-		
-		panel_Hvoroba1 = new JPanel();
-		tabbedPane_2.addTab("Борошниста роса", null, panel_Hvoroba1, null);
-		panel_Hvoroba1.setLayout(null);
-		
-		scrollPane_21 = new JScrollPane();
-		scrollPane_21.setBounds(0, 0, 760, 429);
-		panel_Hvoroba1.add(scrollPane_21);
-		
-		l_Hvorovu1 = new JLabel("");
-		scrollPane_21.setViewportView(l_Hvorovu1);
-		l_Hvorovu1.setIcon(new ImageIcon("res/Hvorobu1.PNG"));
-		
-		panel_Hvoroba2 = new JPanel();
-		tabbedPane_2.addTab("Антракноз", null, panel_Hvoroba2, null);
-		panel_Hvoroba2.setLayout(null);
-		
-		scrollPane_20 = new JScrollPane();
-		scrollPane_20.setBounds(0, 0, 760, 429);
-		panel_Hvoroba2.add(scrollPane_20);
-		
-		l_Hvorovu2 = new JLabel("");
-		scrollPane_20.setViewportView(l_Hvorovu2);
-		l_Hvorovu2.setIcon(new ImageIcon("res/Hvorobu2.PNG"));
-		
-		panel_Hvoroba3 = new JPanel();
-		tabbedPane_2.addTab("Фузаріоз", null, panel_Hvoroba3, null);
-		panel_Hvoroba3.setLayout(null);
-		
-		scrollPane_19 = new JScrollPane();
-		scrollPane_19.setBounds(0, 0, 760, 429);
-		panel_Hvoroba3.add(scrollPane_19);
-		
-		l_Hvorovu3 = new JLabel("");
-		scrollPane_19.setViewportView(l_Hvorovu3);
-		l_Hvorovu3.setIcon(new ImageIcon("res/Hvorobu3.PNG"));
-		
-		panel_Hvoroba4 = new JPanel();
-		tabbedPane_2.addTab("Сіра гниль", null, panel_Hvoroba4, null);
-		panel_Hvoroba4.setLayout(null);
-		
-		scrollPane_18 = new JScrollPane();
-		scrollPane_18.setBounds(0, 0, 760, 429);
-		panel_Hvoroba4.add(scrollPane_18);
-		
-		l_Hvorovu4 = new JLabel("");
-		scrollPane_18.setViewportView(l_Hvorovu4);
-		l_Hvorovu4.setIcon(new ImageIcon("res/Hvorobu4.PNG"));
-		
-		panel_Hvoroba5 = new JPanel();
-		tabbedPane_2.addTab("Септоріоз", null, panel_Hvoroba5, null);
-		panel_Hvoroba5.setLayout(null);
-		
-		scrollPane_17 = new JScrollPane();
-		scrollPane_17.setBounds(0, 0, 760, 429);
-		panel_Hvoroba5.add(scrollPane_17);
-		
-		l_Hvorovu5 = new JLabel("");
-		scrollPane_17.setViewportView(l_Hvorovu5);
-		l_Hvorovu5.setIcon(new ImageIcon("res/Hvorobu5.PNG"));
-		
-		panel_Hvoroba6 = new JPanel();
-		tabbedPane_2.addTab("Коренева гниль", null, panel_Hvoroba6, null);
-		panel_Hvoroba6.setLayout(null);
-		
-		scrollPane_16 = new JScrollPane();
-		scrollPane_16.setBounds(0, 0, 760, 429);
-		panel_Hvoroba6.add(scrollPane_16);
-		
-		l_Hvorovu6 = new JLabel("");
-		scrollPane_16.setViewportView(l_Hvorovu6);
-		l_Hvorovu6.setIcon(new ImageIcon("res/Hvorobu6.PNG"));
-		
-		panel_Hvoroba7 = new JPanel();
-		tabbedPane_2.addTab("Жовтуха квітів", null, panel_Hvoroba7, null);
-		panel_Hvoroba7.setLayout(null);
-		
-		scrollPane_15 = new JScrollPane();
-		scrollPane_15.setBounds(0, 0, 760, 429);
-		panel_Hvoroba7.add(scrollPane_15);
-		
-		l_Hvorovu7 = new JLabel("");
-		scrollPane_15.setViewportView(l_Hvorovu7);
-		l_Hvorovu7.setIcon(new ImageIcon("res/Hvorobu7.PNG"));
-		
-		l_fonKimnatne = new JLabel("");
-		l_fonKimnatne.setBounds(0, 0, 765, 459);
-		l_fonKimnatne.setIcon(new ImageIcon("res/fon_KimnatneResultatKupivla.jpg"));
-		panel_Hvorobu.add(l_fonKimnatne);
+		if (i_putanna7 == 1) {
+			panel_Hvorobu = new Panel();
+			tabbedPane.addTab("Хвороби", null, panel_Hvorobu, null);
+			panel_Hvorobu.setLayout(null);
 
-		panel_Rozmnogenna = new Panel();
-		tabbedPane.addTab("Розмноження", null, panel_Rozmnogenna, null);
+			tabbedPane_2 = new JTabbedPane(JTabbedPane.TOP);
+			tabbedPane_2.setBounds(0, 0, 765, 459);
+			panel_Hvorobu.add(tabbedPane_2);
+
+			panel_Hvoroba1 = new JPanel();
+			tabbedPane_2.addTab("Борошниста роса", null, panel_Hvoroba1, null);
+			panel_Hvoroba1.setLayout(null);
+
+			scrollPane_21 = new JScrollPane();
+			scrollPane_21.setBounds(0, 0, 760, 429);
+			panel_Hvoroba1.add(scrollPane_21);
+
+			l_Hvorovu1 = new JLabel("");
+			scrollPane_21.setViewportView(l_Hvorovu1);
+			l_Hvorovu1.setIcon(new ImageIcon("res/Hvorobu1.PNG"));
+
+			panel_Hvoroba2 = new JPanel();
+			tabbedPane_2.addTab("Антракноз", null, panel_Hvoroba2, null);
+			panel_Hvoroba2.setLayout(null);
+
+			scrollPane_20 = new JScrollPane();
+			scrollPane_20.setBounds(0, 0, 760, 429);
+			panel_Hvoroba2.add(scrollPane_20);
+
+			l_Hvorovu2 = new JLabel("");
+			scrollPane_20.setViewportView(l_Hvorovu2);
+			l_Hvorovu2.setIcon(new ImageIcon("res/Hvorobu2.PNG"));
+
+			panel_Hvoroba3 = new JPanel();
+			tabbedPane_2.addTab("Фузаріоз", null, panel_Hvoroba3, null);
+			panel_Hvoroba3.setLayout(null);
+
+			scrollPane_19 = new JScrollPane();
+			scrollPane_19.setBounds(0, 0, 760, 429);
+			panel_Hvoroba3.add(scrollPane_19);
+
+			l_Hvorovu3 = new JLabel("");
+			scrollPane_19.setViewportView(l_Hvorovu3);
+			l_Hvorovu3.setIcon(new ImageIcon("res/Hvorobu3.PNG"));
+
+			panel_Hvoroba4 = new JPanel();
+			tabbedPane_2.addTab("Сіра гниль", null, panel_Hvoroba4, null);
+			panel_Hvoroba4.setLayout(null);
+
+			scrollPane_18 = new JScrollPane();
+			scrollPane_18.setBounds(0, 0, 760, 429);
+			panel_Hvoroba4.add(scrollPane_18);
+
+			l_Hvorovu4 = new JLabel("");
+			scrollPane_18.setViewportView(l_Hvorovu4);
+			l_Hvorovu4.setIcon(new ImageIcon("res/Hvorobu4.PNG"));
+
+			panel_Hvoroba5 = new JPanel();
+			tabbedPane_2.addTab("Септоріоз", null, panel_Hvoroba5, null);
+			panel_Hvoroba5.setLayout(null);
+
+			scrollPane_17 = new JScrollPane();
+			scrollPane_17.setBounds(0, 0, 760, 429);
+			panel_Hvoroba5.add(scrollPane_17);
+
+			l_Hvorovu5 = new JLabel("");
+			scrollPane_17.setViewportView(l_Hvorovu5);
+			l_Hvorovu5.setIcon(new ImageIcon("res/Hvorobu5.PNG"));
+
+			panel_Hvoroba6 = new JPanel();
+			tabbedPane_2.addTab("Коренева гниль", null, panel_Hvoroba6, null);
+			panel_Hvoroba6.setLayout(null);
+
+			scrollPane_16 = new JScrollPane();
+			scrollPane_16.setBounds(0, 0, 760, 429);
+			panel_Hvoroba6.add(scrollPane_16);
+
+			l_Hvorovu6 = new JLabel("");
+			scrollPane_16.setViewportView(l_Hvorovu6);
+			l_Hvorovu6.setIcon(new ImageIcon("res/Hvorobu6.PNG"));
+
+			panel_Hvoroba7 = new JPanel();
+			tabbedPane_2.addTab("Жовтуха квітів", null, panel_Hvoroba7, null);
+			panel_Hvoroba7.setLayout(null);
+
+			scrollPane_15 = new JScrollPane();
+			scrollPane_15.setBounds(0, 0, 760, 429);
+			panel_Hvoroba7.add(scrollPane_15);
+
+			l_Hvorovu7 = new JLabel("");
+			scrollPane_15.setViewportView(l_Hvorovu7);
+			l_Hvorovu7.setIcon(new ImageIcon("res/Hvorobu7.PNG"));
+
+			l_fonKimnatne = new JLabel("");
+			l_fonKimnatne.setBounds(0, 0, 765, 459);
+			l_fonKimnatne.setIcon(new ImageIcon("res/fon_KimnatneResultatKupivla.jpg"));
+			panel_Hvorobu.add(l_fonKimnatne);
+
+		}
+
+		if (i_putanna8 == 1) {
+
+			panel_Rozmnogenna = new Panel();
+			tabbedPane.addTab("Розмноження", null, panel_Rozmnogenna, null);
+			panel_Rozmnogenna.setLayout(null);
+
+			tabbedPane_3 = new JTabbedPane(JTabbedPane.TOP);
+			tabbedPane_3.setBounds(0, 0, 765, 459);
+			panel_Rozmnogenna.add(tabbedPane_3);
+
+			panel_Rozmnogenna1 = new JPanel();
+			tabbedPane_3.addTab("Розмноження насінням", null, panel_Rozmnogenna1, null);
+			panel_Rozmnogenna1.setLayout(null);
+
+			l_RozmnogennaNasinnaStrilka3 = new JLabel("");
+			l_RozmnogennaNasinnaStrilka3.addMouseListener(new MouseAdapter() {
+				@Override
+				public void mouseClicked(MouseEvent e) {
+					textPane_RozmnogennaNasinnaText.setText(s_Rozmnogena1_4);
+					l_RozmnogennaNasinna1.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna2.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna3.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna4.setFont(new Font("Segoe Print", Font.BOLD, 30));
+				}
+			});
+			l_RozmnogennaNasinnaStrilka3.setHorizontalAlignment(SwingConstants.CENTER);
+			l_RozmnogennaNasinnaStrilka3.setBounds(564, 166, 83, 43);
+			panel_Rozmnogenna1.add(l_RozmnogennaNasinnaStrilka3);
+			l_RozmnogennaNasinnaStrilka3.setIcon(new ImageIcon("res/Strilka.PNG"));
+
+			l_RozmnogennaNasinnaStrilka1 = new JLabel("");
+			l_RozmnogennaNasinnaStrilka1.addMouseListener(new MouseAdapter() {
+				@Override
+				public void mouseClicked(MouseEvent e) {
+					textPane_RozmnogennaNasinnaText.setText(s_Rozmnogena1_2);
+					l_RozmnogennaNasinna1.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna2.setFont(new Font("Segoe Print", Font.BOLD, 30));
+					l_RozmnogennaNasinna3.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna4.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+				}
+			});
+			l_RozmnogennaNasinnaStrilka1.setHorizontalAlignment(SwingConstants.CENTER);
+			l_RozmnogennaNasinnaStrilka1.setBounds(134, 166, 83, 43);
+			panel_Rozmnogenna1.add(l_RozmnogennaNasinnaStrilka1);
+			l_RozmnogennaNasinnaStrilka1.setIcon(new ImageIcon("res/Strilka.PNG"));
+
+			l_RozmnogennaNasinnaStrilka2 = new JLabel("");
+			l_RozmnogennaNasinnaStrilka2.addMouseListener(new MouseAdapter() {
+				@Override
+				public void mouseClicked(MouseEvent e) {
+					textPane_RozmnogennaNasinnaText.setText(s_Rozmnogena1_3);
+					l_RozmnogennaNasinna1.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna2.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna3.setFont(new Font("Segoe Print", Font.BOLD, 30));
+					l_RozmnogennaNasinna4.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+				}
+			});
+			l_RozmnogennaNasinnaStrilka2.setHorizontalAlignment(SwingConstants.CENTER);
+			l_RozmnogennaNasinnaStrilka2.setBounds(395, 166, 83, 43);
+			panel_Rozmnogenna1.add(l_RozmnogennaNasinnaStrilka2);
+			l_RozmnogennaNasinnaStrilka2.setIcon(new ImageIcon("res/Strilka.PNG"));
+
+			scrollPane_22 = new JScrollPane();
+			scrollPane_22.setBounds(0, 211, 760, 218);
+			panel_Rozmnogenna1.add(scrollPane_22);
+
+			l_RozmnogennaNasinnaKartunka = new JLabel("");
+			l_RozmnogennaNasinnaKartunka.setIcon(new ImageIcon("res/RozmnogennaNasinnam.PNG"));
+			scrollPane_22.setViewportView(l_RozmnogennaNasinnaKartunka);
+
+			scrollPane_23 = new JScrollPane();
+			scrollPane_23.setBounds(0, 0, 760, 164);
+			panel_Rozmnogenna1.add(scrollPane_23);
+
+			textPane_RozmnogennaNasinnaText = new JTextPane();
+			textPane_RozmnogennaNasinnaText.setText(s_Rozmnogena1_1);
+			scrollPane_23.setViewportView(textPane_RozmnogennaNasinnaText);
+
+			l_RozmnogennaNasinna1 = new JLabel("Загально");
+			l_RozmnogennaNasinna1.addMouseListener(new MouseAdapter() {
+				@Override
+				public void mouseClicked(MouseEvent arg0) {
+					textPane_RozmnogennaNasinnaText.setText(s_Rozmnogena1_1);
+					l_RozmnogennaNasinna1.setFont(new Font("Segoe Print", Font.BOLD, 30));
+					l_RozmnogennaNasinna2.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna3.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna4.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+				}
+			});
+			l_RozmnogennaNasinna1.setForeground(Color.YELLOW);
+			l_RozmnogennaNasinna1.setHorizontalAlignment(SwingConstants.CENTER);
+			l_RozmnogennaNasinna1.setFont(new Font("Segoe Print", Font.BOLD, 30));
+			l_RozmnogennaNasinna1.setBounds(0, 166, 147, 43);
+			panel_Rozmnogenna1.add(l_RozmnogennaNasinna1);
+
+			l_RozmnogennaNasinna2 = new JLabel("Підготовка");
+			l_RozmnogennaNasinna2.addMouseListener(new MouseAdapter() {
+				@Override
+				public void mouseClicked(MouseEvent e) {
+					textPane_RozmnogennaNasinnaText.setText(s_Rozmnogena1_2);
+					l_RozmnogennaNasinna1.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna2.setFont(new Font("Segoe Print", Font.BOLD, 30));
+					l_RozmnogennaNasinna3.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna4.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+				}
+			});
+			l_RozmnogennaNasinna2.setForeground(Color.YELLOW);
+			l_RozmnogennaNasinna2.setHorizontalAlignment(SwingConstants.CENTER);
+			l_RozmnogennaNasinna2.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+			l_RozmnogennaNasinna2.setBounds(202, 166, 192, 43);
+			panel_Rozmnogenna1.add(l_RozmnogennaNasinna2);
+
+			l_RozmnogennaNasinna3 = new JLabel("Посів");
+			l_RozmnogennaNasinna3.addMouseListener(new MouseAdapter() {
+				@Override
+				public void mouseClicked(MouseEvent e) {
+					textPane_RozmnogennaNasinnaText.setText(s_Rozmnogena1_3);
+					l_RozmnogennaNasinna1.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna2.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna3.setFont(new Font("Segoe Print", Font.BOLD, 30));
+					l_RozmnogennaNasinna4.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+				}
+			});
+			l_RozmnogennaNasinna3.setForeground(Color.YELLOW);
+			l_RozmnogennaNasinna3.setHorizontalAlignment(SwingConstants.CENTER);
+			l_RozmnogennaNasinna3.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+			l_RozmnogennaNasinna3.setBounds(443, 166, 157, 43);
+			panel_Rozmnogenna1.add(l_RozmnogennaNasinna3);
+
+			l_RozmnogennaNasinna4 = new JLabel("Догляд");
+			l_RozmnogennaNasinna4.addMouseListener(new MouseAdapter() {
+				@Override
+				public void mouseClicked(MouseEvent e) {
+					textPane_RozmnogennaNasinnaText.setText(s_Rozmnogena1_4);
+					l_RozmnogennaNasinna1.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna2.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna3.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaNasinna4.setFont(new Font("Segoe Print", Font.BOLD, 30));
+				}
+			});
+			l_RozmnogennaNasinna4.setForeground(Color.YELLOW);
+			l_RozmnogennaNasinna4.setHorizontalAlignment(SwingConstants.CENTER);
+			l_RozmnogennaNasinna4.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+			l_RozmnogennaNasinna4.setBounds(618, 166, 157, 43);
+			panel_Rozmnogenna1.add(l_RozmnogennaNasinna4);
+
+			panel_Rozmnogenna2 = new JPanel();
+			tabbedPane_3.addTab("Розмноження живцями", null, panel_Rozmnogenna2, null);
+			panel_Rozmnogenna2.setLayout(null);
+
+			scrollPane_24 = new JScrollPane();
+			scrollPane_24.setBounds(1, 0, 758, 162);
+			panel_Rozmnogenna2.add(scrollPane_24);
+
+			textPane_RozmnogennaJuvecText = new JTextPane();
+			scrollPane_24.setViewportView(textPane_RozmnogennaJuvecText);
+			textPane_RozmnogennaJuvecText.setText(s_Rozmnogena2_1);
+
+			l_RozmnogennaJuvec1 = new JLabel("Загально");
+			l_RozmnogennaJuvec1.addMouseListener(new MouseAdapter() {
+				@Override
+				public void mouseClicked(MouseEvent e) {
+					textPane_RozmnogennaJuvecText.setText(s_Rozmnogena2_1);
+					l_RozmnogennaJuvec1.setFont(new Font("Segoe Print", Font.BOLD, 30));
+					l_RozmnogennaJuvec2.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaJuvec3.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+				}
+			});
+			l_RozmnogennaJuvec1.setHorizontalAlignment(SwingConstants.CENTER);
+			l_RozmnogennaJuvec1.setForeground(Color.YELLOW);
+			l_RozmnogennaJuvec1.setFont(new Font("Segoe Print", Font.BOLD, 30));
+			l_RozmnogennaJuvec1.setBounds(0, 165, 169, 43);
+			panel_Rozmnogenna2.add(l_RozmnogennaJuvec1);
+
+			l_RozmnogennaJuvecStrilka1 = new JLabel("");
+			l_RozmnogennaJuvecStrilka1.addMouseListener(new MouseAdapter() {
+				@Override
+				public void mouseClicked(MouseEvent e) {
+					textPane_RozmnogennaJuvecText.setText(s_Rozmnogena2_2);
+					l_RozmnogennaJuvec1.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaJuvec2.setFont(new Font("Segoe Print", Font.BOLD, 30));
+					l_RozmnogennaJuvec3.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+				}
+			});
+			l_RozmnogennaJuvecStrilka1.setHorizontalAlignment(SwingConstants.CENTER);
+			l_RozmnogennaJuvecStrilka1.setBounds(196, 165, 83, 43);
+			l_RozmnogennaJuvecStrilka1.setIcon(new ImageIcon("res/Strilka.PNG"));
+			panel_Rozmnogenna2.add(l_RozmnogennaJuvecStrilka1);
+
+			l_RozmnogennaJuvec2 = new JLabel("Підготовка");
+			l_RozmnogennaJuvec2.addMouseListener(new MouseAdapter() {
+				@Override
+				public void mouseClicked(MouseEvent e) {
+					textPane_RozmnogennaJuvecText.setText(s_Rozmnogena2_2);
+					l_RozmnogennaJuvec1.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaJuvec2.setFont(new Font("Segoe Print", Font.BOLD, 30));
+					l_RozmnogennaJuvec3.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+				}
+			});
+			l_RozmnogennaJuvec2.setHorizontalAlignment(SwingConstants.CENTER);
+			l_RozmnogennaJuvec2.setForeground(Color.YELLOW);
+			l_RozmnogennaJuvec2.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+			l_RozmnogennaJuvec2.setBounds(291, 168, 200, 43);
+			panel_Rozmnogenna2.add(l_RozmnogennaJuvec2);
+
+			l_RozmnogennaJuvecStrilka2 = new JLabel("");
+			l_RozmnogennaJuvecStrilka2.addMouseListener(new MouseAdapter() {
+				@Override
+				public void mouseClicked(MouseEvent e) {
+					textPane_RozmnogennaJuvecText.setText(s_Rozmnogena2_3);
+					l_RozmnogennaJuvec1.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaJuvec2.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaJuvec3.setFont(new Font("Segoe Print", Font.BOLD, 30));
+				}
+			});
+			l_RozmnogennaJuvecStrilka2.setHorizontalAlignment(SwingConstants.CENTER);
+			l_RozmnogennaJuvecStrilka2.setBounds(503, 165, 83, 43);
+			l_RozmnogennaJuvecStrilka2.setIcon(new ImageIcon("res/Strilka.PNG"));
+			panel_Rozmnogenna2.add(l_RozmnogennaJuvecStrilka2);
+
+			l_RozmnogennaJuvec3 = new JLabel("Догляд");
+			l_RozmnogennaJuvec3.addMouseListener(new MouseAdapter() {
+				@Override
+				public void mouseClicked(MouseEvent e) {
+					textPane_RozmnogennaJuvecText.setText(s_Rozmnogena2_3);
+					l_RozmnogennaJuvec1.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaJuvec2.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+					l_RozmnogennaJuvec3.setFont(new Font("Segoe Print", Font.BOLD, 30));
+				}
+			});
+			l_RozmnogennaJuvec3.setHorizontalAlignment(SwingConstants.CENTER);
+			l_RozmnogennaJuvec3.setForeground(Color.YELLOW);
+			l_RozmnogennaJuvec3.setFont(new Font("Segoe Print", Font.PLAIN, 20));
+			l_RozmnogennaJuvec3.setBounds(598, 165, 162, 43);
+			panel_Rozmnogenna2.add(l_RozmnogennaJuvec3);
+
+			l_fonKimnatne = new JLabel("");
+			l_fonKimnatne.setBounds(0, 0, 765, 459);
+			l_fonKimnatne.setIcon(new ImageIcon("res/fon_KimnatneResultatKupivla.jpg"));
+			panel_Rozmnogenna.add(l_fonKimnatne);
+
+			l_fonKupivli = new JLabel("");
+			l_fonKupivli.setBounds(0, 0, 765, 459);
+			l_fonKupivli.setIcon(new ImageIcon("res/fon_KimnatneResultatKupivla.jpg"));
+			panel_Rozmnogenna1.add(l_fonKupivli);
+
+			scrollPane_26 = new JScrollPane();
+			scrollPane_26.setBounds(0, 214, 758, 216);
+			panel_Rozmnogenna2.add(scrollPane_26);
+
+			l_RozmnogennaJuvecKartunka = new JLabel("");
+			l_RozmnogennaJuvecKartunka.setIcon(new ImageIcon("res/RozmnogennaJuvcamu.PNG"));
+			scrollPane_26.setViewportView(l_RozmnogennaJuvecKartunka);
+
+			l_fonKimnatneUdacaDostatok = new JLabel("");
+			l_fonKimnatneUdacaDostatok.setBounds(0, 0, 765, 459);
+			l_fonKimnatneUdacaDostatok.setIcon(new ImageIcon("res/fon_KimnatneResultatKupivla.jpg"));
+			panel_Rozmnogenna2.add(l_fonKimnatneUdacaDostatok);
+
+		}
 
 		if (i_putanna3 == 1) {
 			panel_Kupivla = new Panel();
@@ -1095,5 +1395,4 @@ public class KimnatneResultatu extends JFrame {
 		setVisible(true);
 
 	}
-
 }
