@@ -89,24 +89,26 @@ public class KimnatneResultatu extends JFrame {
 	private ButtonGroup group_Prukmetu1;
 	private ButtonGroup group_Prukmetu2;
 	private JScrollPane scrollPane_2;
-	
+
 	String s_Prukmetu1_1 = "Товстянка (крассула) або ж просто «грошове дерево» є одним з найвідоміших грошових символів. Листя, що за формою нагадують монети, символізують стабільність, постійне зростання, надійні результати. Якщо листя на рослині дрібне - буде дзвеніти в кишені дріб'язок, якщо велике, то в кишені будуть хрустіти паперові купюри. А вже якщо товстянка зацвіла - з упевненістю очікуйте багатства. Рослина не надто вимоглива до умов і потребує простого, але регулярного догляду - помірного поливу подалі від палючого сонця. Як варіант можна придбати заміокулькас (доларове дерево). Це також досить невибаглива рослина, що побратимом грошового дерева.";
-	String s_Prukmetu1_2 = "s_Prukmetu1_2";
-	String s_Prukmetu1_3 = "s_Prukmetu1_3";
-	String s_Prukmetu1_4 = "s_Prukmetu1_4";
-	String s_Prukmetu1_5 = "s_Prukmetu1_5";
-	String s_Prukmetu1_6 = "s_Prukmetu1_6";
-	
-	String s_Prukmetu2_1 = "s_Prukmetu2_1";
-	String s_Prukmetu2_2 = "s_Prukmetu2_2";
-	String s_Prukmetu2_3 = "s_Prukmetu2_3";
-	String s_Prukmetu2_4 = "s_Prukmetu2_4";
-	String s_Prukmetu2_5 = "s_Prukmetu2_5";
-	String s_Prukmetu2_6 = "s_Prukmetu2_6";
-	String s_Prukmetu2_7 = "s_Prukmetu2_7";
-	String s_Prukmetu2_8 = "s_Prukmetu2_8";
-	String s_Prukmetu2_9 = "s_Prukmetu2_9";
-	String s_Prukmetu2_10 = "s_Prukmetu2_10";
+	String s_Prukmetu1_2 = "«Бамбук щастя» або «щасливий бамбук» - це популярна назва драцени Сандера - багаторічної декоративної рослини. Бамбук - символізує швидке зростання і бурхливий розвиток. У Китаї вірять, що на всіх мешканців будинку, в якому є ця рослина, чекає удача, процвітання і щастя в сімейному житті. Ця невибаглива рослина потребує мінімального догляду. Любить розсіяне світло - під прямими сонячними променями листя може отримати опік. Обожнює воду, може рости в ній навіть без грунту. Тому головне - вчасно і рясно поливати, особливо влітку.";
+	String s_Prukmetu1_3 = "Бугенвілія пов'язана з енергією і могутністю грошей та з фінансами вцілому. Особливо це квітуча рослина любить допомагати тим, хто вміє скористатися удачею і вчасно повернути колесо фортуни в потрібний бік. Бугенвілія допомагає оздоровити ситуацію в бізнесі, оживити грошові потоки і впоратися із застоєм у справах. Ця рослина вимагає яскравого світла. Вона чудово себе почуває на прямому сонці і при легкому затіненні. При таких умовах приквітки з’являються регулярно і довго не опадають. Ці ліани скидають частину листя в зимовий період, однак при недоліку освітлення їй притаманне скидання майже всього листя, в будь-який час. \n"
+			+ "Прості й відомі всім рослини - герань, азалія й бегонія - допомагають домогтися в житті успіху. В азіатських країнах вірять, що якщо в домі є азалія, то господарі будинку будуть жити довго й щасливо. Герань у сусідстві з азалією - джерело статку в домі. Причому їхнє сусідство - неодмінна умова для цього.";
+	String s_Prukmetu1_4 = "Азалія - квітка лідерів, тому що поряд з фінансовою могутністю зміцнює силу духу, здоров'я, авторитет і вплив. Ця рослина в офісі або на робочому столі - ідеальний вибір для тих, хто вміє обертати обставини на свою користь. У догляді азалія досить таки примхлива – рекомендовано регулярно обприскувати її, підвищуючи вологість повітря і в міру потреби поливати. Застою поливної води і перезволоження ця рослина не терпить.";
+	String s_Prukmetu1_5 = "Бегонія відрізняється рівним позитивним впливом і буде однаково корисна як в періоди піднесення, так і в моменти невдач, оскільки ця рослина допомагає істотно згладити кризи і втрати. Бегонія сприяє гармонії фінансового процвітання та благополуччя. Рослина потребує підвищеної вологості повітря в приміщенні, але обприскування бегонії вкрай не допустимо. При попаданні води на листок рослини швидко виникають коричневі плями.";
+	String s_Prukmetu1_6 = "Цитрусові - це специфічні рослини, які залучають матеріальне благополуччя. Наприклад, назва лимона китайською збігається з позначенням золота, і тому це вважається дуже благополучним знаком. За своїм впливом цитрусові не пов'язані з авантюрами, надіями, багатообіцяючими шансами. Вони символізують плоди життя - її конкретні результати. Більшість цитрусових вибагливі, тому що не пристосовані до наших умов існування, а отже - потребують ретельного догляду.\n"
+			+ "Крім цих рослини, приваблюють гроші в будинок наступні кімнатні квіти: аспарагус, астрофітум, юка, папороть. І звичайний кактус. З ним пов'язане ще одне народне повір'я: якщо в будинку є кактус, грабіжникам туди вхід закритий.\nЯкщо ці рослини будуть добре рости в оселі, гроші відразу потечуть у Ваш будинок. В іншому випадку ніколи не пізно відвідати квітковий магазин, і прикупити собі ще одну «грошовиту» рослинку ;)";
+
+	String s_Prukmetu2_1 = "\"Жіноче щастя\" - спатифиллум. Кажуть, що спатифиллум цвіте в щасливому будинку. Більше того, своєю енергетикою це рослина сприяє налагодженню відносин. Cамотні люди обов'язково знайдуть свою другу половинку, а у молодих пар народяться діти. \"Жіноче щастя\" завжди приносить у дім взаєморозуміння й любов. Ніжний спатифиллум у всьому любить помірність. Кращі умови для нього - тепло, але не жарко, волого, але не вогко, сонячно, але не яскраво. Розмножують спатифиллум діленням куща при пересадці. Вирощувати його нескладно. Головне: обов'язково обприскуйте свій спатифиллум кожен день, а навесні - пересаджуйте в свіжу грунт.";
+	String s_Prukmetu2_2 = "Фіалка - дуже гарна квітка з екзотичною назвою сенполія. У будинку, де росте ця квітка, менше сваряться. Фіалка допомагає підтримувати мир в сім'ї. Також ця квітка вважається символом вічного кохання. Фіалки, як усім відомо, люблять ретельний догляд, їм потрібно багато світла, вони не терплять жорстку воду. Не завадить їй гарний дренаж (навіть половину горщику можна засипати ним). Поливати фіалку слід не зверху (так гниє коріння та листя), а знизу і трішки підігрітою водою. Отож, найбільшою шкодою для фіалки є: потрапляння прямого сонячного проміння та надто часте поливання рослини зверху вазона.";
+	String s_Prukmetu2_3 = "Китайська троянда або гібіскус. На Гаваях - це \"квітка прекрасних жінок\". Усім подобаються її красиві і великі квіти. Якщо у вас в будинку з'явиться гібіскус, чекайте на пристрасне кохання. Через велику любов до вологи, гібіскус ще називають \"болотяною мальвою\". Досить цікаво, саме гібіскус китайський добре освіжає та очищує повітря. Він відновлююче впливає на хворі та пониклі рослини, що ростуть поряд з ним. Доглядати за рослиною слід наступним чином: ставте вазон у добре освітленому, але не сонячному місці. В теплі дні можна винести його на свіже повітря (балкон, сад). Якщо у вас немає такої можливості, то пам’ятайте про регулярне провітрювання кімнати. Як бачимо освітлення для гібіскуса є дуже важливим, в іншому випадку рослина може зовсім не цвісти.";
+	String s_Prukmetu2_4 = "Мирт - це вічнозелений чагарник з маленькими білими квітами. Він володіє, крім краси, ще цілющими властивостями. Саме слово «мирт» перекладається з грецької як «бальзам». В античному світі мирт вважався символом безсмертя і любові. Мирт робить шлюб вдалим, а в сформовану вже сім'ю приносить щастя і мир. У деяких країнах це рослина навіть вважається кращим подарунком для молодят. Мирту не завадить яскраве, але розсіяне світло. Взимку його розміщають в найбільш освітлені місця. Вазон можна виставляти на відкрите повітря, в місце, куди не потрапляють промені прямого південного сонця. Найкраще рослині у прохолодних приміщеннях. В іншому випадку, при теплому й сухому повітрі, мирт скидає листочки.";
+	String s_Prukmetu2_5 = "Аїхрізон - кімнатна квітка. Рослина Аїхрізон відноситься до сімейства товстянкових. Народні прізвиська - \"дерево любові\" і \"дерево щастя\". Це кімнатна квітка, яка може вирости до 30 см у висоту. У нього своєрідне листя, схожі за формою на сердечка. Аїхрізон приносить любов і щастя своєму власникові. У догляді не надто вимогливий. Рослина любить яскраве, розсіяне світло, але без потрапляння прямих сонячних променів. Для рівномірного росту вазон час від часу слід повертати у різні сторони. Грунт підійде будь-який. Щоб рослина зацвіла, необхідно створити взимку потрібні умови. Поставити в прохолодне, світле місце. Стежити за поливом: не заливати і використовувати теплу воду. ";
+	String s_Prukmetu2_6 = "Хойя, або « воскової плющ » - кімнатна ліана. У рослини безліч різновидів. Наприклад, є хойя Керрі, яка в деяких країнах дарується як « валентинка » на 14 лютого. Хойя принесе вам сімейне щастя, особливо якщо ви поставите її в свою спальню. Поливати хойю слід 1 раз в тиждень, зовсім трішки обприскувати. А от перезволоження вазону зовсім не на користь, про це він розповість вам формою своїх листочків. Якщо вони скручені до низу – зменшіть частоту поливу. До речі, листя буде в’янути і при поганому освітленні.";
+	String s_Prukmetu2_7 = "Калатея - красива і невибаглива рослина для тих, хто шукає щастя. У калатеї красиві і незвичайні візерункові листя, розцяцьковані в химерні різноманітні малюнки. Ця рослина вважається символом і оберегом домашнього щастя. Ідеальним для калатеї вважається температурний режим в межах 18 – 25 °C (влітку до 30 °C) з температурою ґрунту не нижче 18 – 20 °C, а більш прохолодний зміст, особливо в зимовий період і в поєднанні з обприскуванням листя, часто стає причиною загнивання і загибелі рослини. На підвіконнях під прямим сонцем калатея швидко втрачає декоративність – в кращому випадку листя бліднуть або набувають коричнево-червоний колір, а в гіршому – засихають і опадають. Тому краще розмістити рослину всередині кімнати.";
+	String s_Prukmetu2_8 = "Хлорофітум - \"сімейне щастя\" - одне з найпопулярніших ампельних кімнатних рослин. У народі кажуть, що з хлорофітум сімейне життя буде спокійною і, звичайно ж, щасливою. За цією рослиною легко доглядати. Воно добре росте і красиво цвіте. Рослина дуже стійка, практично нечутлива до коливань температури, вона однаково добре зростає в теплих і холодних кімнатах. Прямі сонячні промені і сухе повітря не несуть загрози хлорофітуму. Рослина не вимагає обприскування, без особливих проблем витримує низьку вологість повітря, тільки влітку поливайте його побільше. ";
+	String s_Prukmetu2_9 = "Кислиця (Оксаліс) - рослина досить не примхлива і дуже красива. У соку кислиці присутній щавлева кислота, тому вона і має таку назву. Її можна вирощувати і в кімнаті, і в саду. Якщо вам необхідно знайти своє кохання або зберегти сім'ю, заведіть у будинку кислиці. Якщо ж Ви бажаєте споглядати буйне розростання цієї рослини цілий рік, то для цього потрібно часто змінювати грунт (весна і осінь - пересадка, видалення дрібних, старих бульб), підгодовувати Ваше рослина в проміжках між пересадками і забезпечити вологість і не яскравий розсіяний світло.";
+	String s_Prukmetu2_10 = "Антуріум (\"Чоловіче щастя\") - квітка, схожа на спатіфілума, але вогненно-червоного кольору. Він приносить щастя і успіх в любові, а чоловікам - \"чоловічу силу\". Доглядати за рослиною дуже просто: містити в теплі, добре поливати, підгодовувати рідким добривом раз на 2-3 тижні навесні і влітку. Тоді антуріум зацвіте і радуватиме 3-4 місяці. Починаючи в пізньої осені і всю зиму рослина не \"годують\". Пересаджують антуріум щорічно навесні: переносять разом із земляною грудкою в новий горщик , відокремлюючи нові кущики. Основні правила посадки: чи не заглиблювати надмірно в землю точку росту і не травмувати «повітряні » коріння. Він не виносить прямих сонячних променів, вимагає частого обприскування і має схильність до високої вологості. І що дуже важливо - отруйний!";
 
 	private JLabel l_fonKimnatneUdacaDostatok;
 	private JLabel l_fonKimnatne;
@@ -143,7 +145,7 @@ public class KimnatneResultatu extends JFrame {
 		l_Nazva = new JLabel("Кімнатне розслинництво");
 		l_Nazva.setBounds(0, 0, 794, 52);
 		l_Nazva.setForeground(Color.RED);
-		l_Nazva.setFont(new Font("Segoe UI", Font.ITALIC, 40));
+		l_Nazva.setFont(new Font("Segoe UI", Font.BOLD | Font.ITALIC, 40));
 		l_Nazva.setHorizontalAlignment(SwingConstants.CENTER);
 		getContentPane().add(l_Nazva);
 
@@ -313,288 +315,293 @@ public class KimnatneResultatu extends JFrame {
 			l_Bonsai.setIcon(new ImageIcon("res/Bonsai.PNG"));
 		}
 
-		panel_Prukmetu = new Panel();
-		tabbedPane.addTab("Прикмети", null, panel_Prukmetu, null);
-		panel_Prukmetu.setLayout(null);
+		if (i_slider_putanna4 >= 50) {
 
-		JTabbedPane tabbedPane_Prukmetu = new JTabbedPane(JTabbedPane.TOP);
-		tabbedPane_Prukmetu.setBounds(0, 0, 765, 459);
-		panel_Prukmetu.add(tabbedPane_Prukmetu);
+			panel_Prukmetu = new Panel();
+			tabbedPane.addTab("Прикмети", null, panel_Prukmetu, null);
+			panel_Prukmetu.setLayout(null);
 
-		panel_UdacaDostatok = new JPanel();
-		tabbedPane_Prukmetu.addTab("Рослини, що приносять удачу та достаток", null, panel_UdacaDostatok, null);
-		panel_UdacaDostatok.setLayout(null);
+			JTabbedPane tabbedPane_Prukmetu = new JTabbedPane(JTabbedPane.TOP);
+			tabbedPane_Prukmetu.setBounds(0, 0, 765, 459);
+			panel_Prukmetu.add(tabbedPane_Prukmetu);
 
-		l_Kartunka = new JLabel("");
-		l_Kartunka.setBounds(310, 0, 450, 338);
-		l_Kartunka.setIcon(new ImageIcon("res/Prukmetu1.jpg"));
-		panel_UdacaDostatok.add(l_Kartunka);
+			panel_UdacaDostatok = new JPanel();
+			tabbedPane_Prukmetu.addTab("Рослини, що приносять удачу та достаток", null, panel_UdacaDostatok, null);
+			panel_UdacaDostatok.setLayout(null);
 
-		scrollPane_2 = new JScrollPane();
-		scrollPane_2.setBounds(0, 0, 310, 338);
-		panel_UdacaDostatok.add(scrollPane_2);
+			l_Kartunka = new JLabel("");
+			l_Kartunka.setBounds(310, 0, 450, 338);
+			l_Kartunka.setIcon(new ImageIcon("res/Prukmetu1.jpg"));
+			panel_UdacaDostatok.add(l_Kartunka);
 
-		textPane_Text = new JTextPane();
-		scrollPane_2.setViewportView(textPane_Text);
-		textPane_Text.setText(s_Prukmetu1_1);
-		
-		rB_1 = new JRadioButton("Товстянка");
-		rB_1.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_1.setForeground(Color.WHITE);
-		rB_1.setBounds(42, 356, 194, 25);
-		rB_1.setSelected(true);
-		rB_1.setOpaque(false);
-		panel_UdacaDostatok.add(rB_1);
-		rB_1.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_Text.setText(s_Prukmetu1_1);
-				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu1.jpg"));
-			}
-		});
+			scrollPane_2 = new JScrollPane();
+			scrollPane_2.setBounds(0, 0, 310, 338);
+			panel_UdacaDostatok.add(scrollPane_2);
 
-		rB_2 = new JRadioButton("«Бамбук щастя»");
-		rB_2.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_2.setForeground(Color.WHITE);
-		rB_2.setBounds(42, 386, 194, 25);
-		panel_UdacaDostatok.add(rB_2);
-		rB_2.setOpaque(false);
-		rB_2.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_Text.setText(s_Prukmetu1_2);
-				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu2.jpg"));
-			}
-		});
+			textPane_Text = new JTextPane();
+			scrollPane_2.setViewportView(textPane_Text);
+			textPane_Text.setText(s_Prukmetu1_1);
 
-		rB_4 = new JRadioButton("Азалія");
-		rB_4.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_4.setForeground(Color.WHITE);
-		rB_4.setBounds(308, 386, 194, 25);
-		panel_UdacaDostatok.add(rB_4);
-		rB_4.setOpaque(false);
-		rB_4.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_Text.setText(s_Prukmetu1_4);
-				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu4.jpg"));
-			}
-		});
+			rB_1 = new JRadioButton("Товстянка");
+			rB_1.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_1.setForeground(Color.WHITE);
+			rB_1.setBounds(42, 356, 194, 25);
+			rB_1.setSelected(true);
+			rB_1.setOpaque(false);
+			panel_UdacaDostatok.add(rB_1);
+			rB_1.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_Text.setText(s_Prukmetu1_1);
+					l_Kartunka.setIcon(new ImageIcon("res/Prukmetu1.jpg"));
+				}
+			});
 
-		rB_3 = new JRadioButton("Бугенвілія");
-		rB_3.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_3.setForeground(Color.WHITE);
-		rB_3.setBounds(308, 356, 194, 25);
-		panel_UdacaDostatok.add(rB_3);
-		rB_3.setOpaque(false);
-		rB_3.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_Text.setText(s_Prukmetu1_3);
-				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu3.jpg"));
-			}
-		});
+			rB_2 = new JRadioButton("«Бамбук щастя»");
+			rB_2.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_2.setForeground(Color.WHITE);
+			rB_2.setBounds(42, 386, 194, 25);
+			panel_UdacaDostatok.add(rB_2);
+			rB_2.setOpaque(false);
+			rB_2.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_Text.setText(s_Prukmetu1_2);
+					l_Kartunka.setIcon(new ImageIcon("res/Prukmetu2.jpg"));
+				}
+			});
 
-		rB_6 = new JRadioButton("Цитрусові");
-		rB_6.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_6.setForeground(Color.WHITE);
-		rB_6.setBounds(566, 386, 194, 25);
-		panel_UdacaDostatok.add(rB_6);
-		rB_6.setOpaque(false);
-		rB_6.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_Text.setText(s_Prukmetu1_6);
-				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu6.jpg"));
-			}
-		});
+			rB_4 = new JRadioButton("Азалія");
+			rB_4.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_4.setForeground(Color.WHITE);
+			rB_4.setBounds(308, 386, 194, 25);
+			panel_UdacaDostatok.add(rB_4);
+			rB_4.setOpaque(false);
+			rB_4.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_Text.setText(s_Prukmetu1_4);
+					l_Kartunka.setIcon(new ImageIcon("res/Prukmetu4.jpg"));
+				}
+			});
 
-		rB_5 = new JRadioButton("Бегонія");
-		rB_5.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_5.setForeground(Color.WHITE);
-		rB_5.setBounds(566, 356, 194, 25);
-		panel_UdacaDostatok.add(rB_5);
-		rB_5.setOpaque(false);
-		rB_5.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_Text.setText(s_Prukmetu1_5);
-				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu5.jpg"));
-			}
-		});
-		
-		group_Prukmetu1 = new ButtonGroup();
-		group_Prukmetu1.add(rB_1);
-		group_Prukmetu1.add(rB_2);
-		group_Prukmetu1.add(rB_3);
-		group_Prukmetu1.add(rB_4);
-		group_Prukmetu1.add(rB_5);
-		group_Prukmetu1.add(rB_6);
-		
-		l_fonKimnatne = new JLabel("");
-		l_fonKimnatne.setBounds(0, 0, 765, 459);
-		l_fonKimnatne.setIcon(new ImageIcon("res/fon_KimnatneResultatKupivla.jpg"));
-		panel_Prukmetu.add(l_fonKimnatne);
-		
-		l_fonKimnatneUdacaDostatok = new JLabel("");
-		l_fonKimnatneUdacaDostatok.setBounds(0, 0, 765, 459);
-		l_fonKimnatneUdacaDostatok.setIcon(new ImageIcon("res/fon_KimnatneResultatKupivla.jpg"));
-		panel_UdacaDostatok.add(l_fonKimnatneUdacaDostatok);
-		
-		panel_KohannaScasta = new JPanel();
-		tabbedPane_Prukmetu.addTab("Рослини, що приносять кохання та щастя", null, panel_KohannaScasta, null);
-		panel_KohannaScasta.setLayout(null);
-		
-		textPane_TextScasta = new JTextPane();
-		textPane_TextScasta.setText(s_Prukmetu2_1);
-		textPane_TextScasta.setBounds(1, 1, 308, 336);
-		panel_KohannaScasta.add(textPane_TextScasta);
-		
-		label_KartunkaScasta = new JLabel("");
-		label_KartunkaScasta.setBounds(310, 0, 450, 338);
-		panel_KohannaScasta.add(label_KartunkaScasta);
-		
-		rB_Prukmet2_1 = new JRadioButton("Товстянка");
-		rB_Prukmet2_1.setSelected(true);
-		rB_Prukmet2_1.setOpaque(false);
-		rB_Prukmet2_1.setForeground(Color.WHITE);
-		rB_Prukmet2_1.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_Prukmet2_1.setBounds(1, 345, 153, 25);
-		panel_KohannaScasta.add(rB_Prukmet2_1);
-		rB_Prukmet2_1.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_TextScasta.setText(s_Prukmetu2_1);
-//				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu1.jpg"));
-			}
-		});
-		
-		rB_Prukmet2_2 = new JRadioButton("«Бамбук щастя»");
-		rB_Prukmet2_2.setOpaque(false);
-		rB_Prukmet2_2.setForeground(Color.WHITE);
-		rB_Prukmet2_2.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_Prukmet2_2.setBounds(1, 386, 153, 25);
-		panel_KohannaScasta.add(rB_Prukmet2_2);	
-		rB_Prukmet2_2.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_TextScasta.setText(s_Prukmetu2_2);
-//				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu1.jpg"));
-			}
-		});
-		
-		rB_Prukmet2_3 = new JRadioButton("Товстянка");
-		rB_Prukmet2_3.setOpaque(false);
-		rB_Prukmet2_3.setForeground(Color.WHITE);
-		rB_Prukmet2_3.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_Prukmet2_3.setBounds(153, 345, 153, 25);
-		panel_KohannaScasta.add(rB_Prukmet2_3);
-		rB_Prukmet2_3.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_TextScasta.setText(s_Prukmetu2_3);
-//				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu1.jpg"));
-			}
-		});
-		
-		rB_Prukmet2_4 = new JRadioButton("«Бамбук щастя»");
-		rB_Prukmet2_4.setOpaque(false);
-		rB_Prukmet2_4.setForeground(Color.WHITE);
-		rB_Prukmet2_4.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_Prukmet2_4.setBounds(153, 386, 153, 25);
-		panel_KohannaScasta.add(rB_Prukmet2_4);
-		rB_Prukmet2_4.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_TextScasta.setText(s_Prukmetu2_4);
-//				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu1.jpg"));
-			}
-		});
-		
-		rB_Prukmet2_7 = new JRadioButton("Товстянка");
-		rB_Prukmet2_7.setOpaque(false);
-		rB_Prukmet2_7.setForeground(Color.WHITE);
-		rB_Prukmet2_7.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_Prukmet2_7.setBounds(459, 345, 153, 25);
-		panel_KohannaScasta.add(rB_Prukmet2_7);
-		rB_Prukmet2_7.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_TextScasta.setText(s_Prukmetu2_7);
-//				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu1.jpg"));
-			}
-		});
-		
-		rB_Prukmet2_8 = new JRadioButton("«Бамбук щастя»");
-		rB_Prukmet2_8.setOpaque(false);
-		rB_Prukmet2_8.setForeground(Color.WHITE);
-		rB_Prukmet2_8.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_Prukmet2_8.setBounds(459, 386, 153, 25);
-		panel_KohannaScasta.add(rB_Prukmet2_8);
-		rB_Prukmet2_8.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_TextScasta.setText(s_Prukmetu2_8);
-//				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu1.jpg"));
-			}
-		});
-		
-		rB_Prukmet2_5 = new JRadioButton("Товстянка");
-		rB_Prukmet2_5.setOpaque(false);
-		rB_Prukmet2_5.setForeground(Color.WHITE);
-		rB_Prukmet2_5.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_Prukmet2_5.setBounds(306, 345, 153, 25);
-		panel_KohannaScasta.add(rB_Prukmet2_5);
-		rB_Prukmet2_5.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_TextScasta.setText(s_Prukmetu2_5);
-//				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu1.jpg"));
-			}
-		});
-		
-		rB_Prukmet2_6 = new JRadioButton("«Бамбук щастя»");
-		rB_Prukmet2_6.setOpaque(false);
-		rB_Prukmet2_6.setForeground(Color.WHITE);
-		rB_Prukmet2_6.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_Prukmet2_6.setBounds(306, 386, 153, 25);
-		panel_KohannaScasta.add(rB_Prukmet2_6);
-		rB_Prukmet2_6.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_TextScasta.setText(s_Prukmetu2_6);
-//				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu1.jpg"));
-			}
-		});
-		
-		rB_Prukmet2_9 = new JRadioButton("Товстянка");
-		rB_Prukmet2_9.setOpaque(false);
-		rB_Prukmet2_9.setForeground(Color.WHITE);
-		rB_Prukmet2_9.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_Prukmet2_9.setBounds(607, 345, 153, 25);
-		panel_KohannaScasta.add(rB_Prukmet2_9);
-		rB_Prukmet2_9.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_TextScasta.setText(s_Prukmetu2_9);
-//				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu1.jpg"));
-			}
-		});
-		
-		rB_Prukmet2_10 = new JRadioButton("«Бамбук щастя»");
-		rB_Prukmet2_10.setOpaque(false);
-		rB_Prukmet2_10.setForeground(Color.WHITE);
-		rB_Prukmet2_10.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		rB_Prukmet2_10.setBounds(607, 386, 153, 25);
-		panel_KohannaScasta.add(rB_Prukmet2_10);
-		rB_Prukmet2_10.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane_TextScasta.setText(s_Prukmetu2_10);
-//				l_Kartunka.setIcon(new ImageIcon("res/Prukmetu1.jpg"));
-			}
-		});
-		
-		group_Prukmetu2 = new ButtonGroup();
-		group_Prukmetu2.add(rB_Prukmet2_1);
-		group_Prukmetu2.add(rB_Prukmet2_2);
-		group_Prukmetu2.add(rB_Prukmet2_3);
-		group_Prukmetu2.add(rB_Prukmet2_4);
-		group_Prukmetu2.add(rB_Prukmet2_5);
-		group_Prukmetu2.add(rB_Prukmet2_6);
-		group_Prukmetu2.add(rB_Prukmet2_7);
-		group_Prukmetu2.add(rB_Prukmet2_8);
-		group_Prukmetu2.add(rB_Prukmet2_9);
-		group_Prukmetu2.add(rB_Prukmet2_10);
-		
-		l_fonKimnatneUdacaDostatok = new JLabel();
-		l_fonKimnatneUdacaDostatok.setIcon(new ImageIcon("res/fon_KimnatneResultatKupivla.jpg"));
-		l_fonKimnatneUdacaDostatok.setBounds(0, 0, 765, 459);
-		panel_KohannaScasta.add(l_fonKimnatneUdacaDostatok);
+			rB_3 = new JRadioButton("Бугенвілія");
+			rB_3.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_3.setForeground(Color.WHITE);
+			rB_3.setBounds(308, 356, 194, 25);
+			panel_UdacaDostatok.add(rB_3);
+			rB_3.setOpaque(false);
+			rB_3.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_Text.setText(s_Prukmetu1_3);
+					l_Kartunka.setIcon(new ImageIcon("res/Prukmetu3.jpg"));
+				}
+			});
+
+			rB_6 = new JRadioButton("Цитрусові");
+			rB_6.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_6.setForeground(Color.WHITE);
+			rB_6.setBounds(566, 386, 194, 25);
+			panel_UdacaDostatok.add(rB_6);
+			rB_6.setOpaque(false);
+			rB_6.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_Text.setText(s_Prukmetu1_6);
+					l_Kartunka.setIcon(new ImageIcon("res/Prukmetu6.jpg"));
+				}
+			});
+
+			rB_5 = new JRadioButton("Бегонія");
+			rB_5.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_5.setForeground(Color.WHITE);
+			rB_5.setBounds(566, 356, 194, 25);
+			panel_UdacaDostatok.add(rB_5);
+			rB_5.setOpaque(false);
+			rB_5.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_Text.setText(s_Prukmetu1_5);
+					l_Kartunka.setIcon(new ImageIcon("res/Prukmetu5.jpg"));
+				}
+			});
+
+			group_Prukmetu1 = new ButtonGroup();
+			group_Prukmetu1.add(rB_1);
+			group_Prukmetu1.add(rB_2);
+			group_Prukmetu1.add(rB_3);
+			group_Prukmetu1.add(rB_4);
+			group_Prukmetu1.add(rB_5);
+			group_Prukmetu1.add(rB_6);
+
+			l_fonKimnatne = new JLabel("");
+			l_fonKimnatne.setBounds(0, 0, 765, 459);
+			l_fonKimnatne.setIcon(new ImageIcon("res/fon_KimnatneResultatKupivla.jpg"));
+			panel_Prukmetu.add(l_fonKimnatne);
+
+			l_fonKimnatneUdacaDostatok = new JLabel("");
+			l_fonKimnatneUdacaDostatok.setBounds(0, 0, 765, 459);
+			l_fonKimnatneUdacaDostatok.setIcon(new ImageIcon("res/fon_KimnatneResultatKupivla.jpg"));
+			panel_UdacaDostatok.add(l_fonKimnatneUdacaDostatok);
+
+			panel_KohannaScasta = new JPanel();
+			tabbedPane_Prukmetu.addTab("Рослини, що приносять кохання та щастя", null, panel_KohannaScasta, null);
+			panel_KohannaScasta.setLayout(null);
+
+			textPane_TextScasta = new JTextPane();
+			textPane_TextScasta.setText(s_Prukmetu2_4);
+			textPane_TextScasta.setBounds(1, 1, 357, 299);
+			panel_KohannaScasta.add(textPane_TextScasta);
+
+			label_KartunkaScasta = new JLabel("");
+			label_KartunkaScasta.setBounds(360, 0, 400, 300);
+			label_KartunkaScasta.setIcon(new ImageIcon("res/Prukmetu2_4.jpg"));
+			panel_KohannaScasta.add(label_KartunkaScasta);
+
+			rB_Prukmet2_1 = new JRadioButton("\"Жіноче щастя\"");
+			rB_Prukmet2_1.setOpaque(false);
+			rB_Prukmet2_1.setForeground(Color.WHITE);
+			rB_Prukmet2_1.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_Prukmet2_1.setBounds(549, 386, 211, 25);
+			panel_KohannaScasta.add(rB_Prukmet2_1);
+			rB_Prukmet2_1.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_TextScasta.setText(s_Prukmetu2_1);
+					label_KartunkaScasta.setIcon(new ImageIcon("res/Prukmetu2_1.jpg"));
+				}
+			});
+
+			rB_Prukmet2_2 = new JRadioButton("Фіалка");
+			rB_Prukmet2_2.setOpaque(false);
+			rB_Prukmet2_2.setForeground(Color.WHITE);
+			rB_Prukmet2_2.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_Prukmet2_2.setBounds(125, 386, 120, 25);
+			panel_KohannaScasta.add(rB_Prukmet2_2);
+			rB_Prukmet2_2.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_TextScasta.setText(s_Prukmetu2_2);
+					label_KartunkaScasta.setIcon(new ImageIcon("res/Prukmetu2_2.jpg"));
+				}
+			});
+
+			rB_Prukmet2_3 = new JRadioButton("Китайська троянда");
+			rB_Prukmet2_3.setOpaque(false);
+			rB_Prukmet2_3.setForeground(Color.WHITE);
+			rB_Prukmet2_3.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_Prukmet2_3.setBounds(549, 345, 211, 25);
+			panel_KohannaScasta.add(rB_Prukmet2_3);
+			rB_Prukmet2_3.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_TextScasta.setText(s_Prukmetu2_3);
+					label_KartunkaScasta.setIcon(new ImageIcon("res/Prukmetu2_3.jpg"));
+				}
+			});
+
+			rB_Prukmet2_4 = new JRadioButton("Мирт");
+			rB_Prukmet2_4.setSelected(true);
+			rB_Prukmet2_4.setOpaque(false);
+			rB_Prukmet2_4.setForeground(Color.WHITE);
+			rB_Prukmet2_4.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_Prukmet2_4.setBounds(1, 345, 120, 25);
+			panel_KohannaScasta.add(rB_Prukmet2_4);
+			rB_Prukmet2_4.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_TextScasta.setText(s_Prukmetu2_4);
+					label_KartunkaScasta.setIcon(new ImageIcon("res/Prukmetu2_4.jpg"));
+				}
+			});
+
+			rB_Prukmet2_7 = new JRadioButton("Калатея");
+			rB_Prukmet2_7.setOpaque(false);
+			rB_Prukmet2_7.setForeground(Color.WHITE);
+			rB_Prukmet2_7.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_Prukmet2_7.setBounds(125, 345, 153, 25);
+			panel_KohannaScasta.add(rB_Prukmet2_7);
+			rB_Prukmet2_7.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_TextScasta.setText(s_Prukmetu2_7);
+					label_KartunkaScasta.setIcon(new ImageIcon("res/Prukmetu2_7.jpg"));
+				}
+			});
+
+			rB_Prukmet2_8 = new JRadioButton("Хлорофітум");
+			rB_Prukmet2_8.setOpaque(false);
+			rB_Prukmet2_8.setForeground(Color.WHITE);
+			rB_Prukmet2_8.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_Prukmet2_8.setBounds(392, 386, 153, 25);
+			panel_KohannaScasta.add(rB_Prukmet2_8);
+			rB_Prukmet2_8.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_TextScasta.setText(s_Prukmetu2_8);
+					label_KartunkaScasta.setIcon(new ImageIcon("res/Prukmetu2_8.jpg"));
+				}
+			});
+
+			rB_Prukmet2_5 = new JRadioButton("Аїхрізон");
+			rB_Prukmet2_5.setOpaque(false);
+			rB_Prukmet2_5.setForeground(Color.WHITE);
+			rB_Prukmet2_5.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_Prukmet2_5.setBounds(251, 345, 153, 25);
+			panel_KohannaScasta.add(rB_Prukmet2_5);
+			rB_Prukmet2_5.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_TextScasta.setText(s_Prukmetu2_5);
+					label_KartunkaScasta.setIcon(new ImageIcon("res/Prukmetu2_5.jpg"));
+				}
+			});
+
+			rB_Prukmet2_6 = new JRadioButton("Хойя");
+			rB_Prukmet2_6.setOpaque(false);
+			rB_Prukmet2_6.setForeground(Color.WHITE);
+			rB_Prukmet2_6.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_Prukmet2_6.setBounds(1, 386, 120, 25);
+			panel_KohannaScasta.add(rB_Prukmet2_6);
+			rB_Prukmet2_6.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_TextScasta.setText(s_Prukmetu2_6);
+					label_KartunkaScasta.setIcon(new ImageIcon("res/Prukmetu2_6.jpg"));
+				}
+			});
+
+			rB_Prukmet2_9 = new JRadioButton("Кислиця");
+			rB_Prukmet2_9.setOpaque(false);
+			rB_Prukmet2_9.setForeground(Color.WHITE);
+			rB_Prukmet2_9.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_Prukmet2_9.setBounds(251, 386, 120, 25);
+			panel_KohannaScasta.add(rB_Prukmet2_9);
+			rB_Prukmet2_9.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_TextScasta.setText(s_Prukmetu2_9);
+					label_KartunkaScasta.setIcon(new ImageIcon("res/Prukmetu2_9.jpg"));
+				}
+			});
+
+			rB_Prukmet2_10 = new JRadioButton("Антуріум");
+			rB_Prukmet2_10.setOpaque(false);
+			rB_Prukmet2_10.setForeground(Color.WHITE);
+			rB_Prukmet2_10.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+			rB_Prukmet2_10.setBounds(392, 345, 153, 25);
+			panel_KohannaScasta.add(rB_Prukmet2_10);
+			rB_Prukmet2_10.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					textPane_TextScasta.setText(s_Prukmetu2_10);
+					label_KartunkaScasta.setIcon(new ImageIcon("res/Prukmetu2_10.jpg"));
+				}
+			});
+
+			group_Prukmetu2 = new ButtonGroup();
+			group_Prukmetu2.add(rB_Prukmet2_1);
+			group_Prukmetu2.add(rB_Prukmet2_2);
+			group_Prukmetu2.add(rB_Prukmet2_3);
+			group_Prukmetu2.add(rB_Prukmet2_4);
+			group_Prukmetu2.add(rB_Prukmet2_5);
+			group_Prukmetu2.add(rB_Prukmet2_6);
+			group_Prukmetu2.add(rB_Prukmet2_7);
+			group_Prukmetu2.add(rB_Prukmet2_8);
+			group_Prukmetu2.add(rB_Prukmet2_9);
+			group_Prukmetu2.add(rB_Prukmet2_10);
+
+			l_fonKimnatneUdacaDostatok = new JLabel();
+			l_fonKimnatneUdacaDostatok.setIcon(new ImageIcon("res/fon_KimnatneResultatKupivla.jpg"));
+			l_fonKimnatneUdacaDostatok.setBounds(0, 0, 765, 459);
+			panel_KohannaScasta.add(l_fonKimnatneUdacaDostatok);
+
+		}
 
 		panel_Hkidnuku = new Panel();
 		tabbedPane.addTab("Шкідники", null, panel_Hkidnuku, null);
