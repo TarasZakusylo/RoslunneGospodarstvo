@@ -1,6 +1,7 @@
 package KP.RoslunneGospodarstvo;
 
 import java.awt.Color;
+import java.awt.Component;
 import java.awt.Desktop;
 import java.awt.Font;
 import java.awt.Panel;
@@ -211,16 +212,16 @@ public class KimnatneResultatu extends JFrame {
 	private JLabel l_RozmnogennaNasinna1;
 	private JLabel l_RozmnogennaJuvecKartunka;
 	private JScrollPane scrollPane_26;
+	private JLabel l_DogladKartunka3;
+	private JLabel l_DogladKartunka4;
+	private JLabel l_DogladKartunka5;
+	private JLabel l_DogladKartunka1;
+	private JLabel l_DogladKartunka2;
 
 	public KimnatneResultatu(String string, int i_putanna1, int i_putanna2, int i_putanna3, int i_slider_putanna4,
-			int i_slider_putanna5, int i_putanna6, int i_putanna7, int i_putanna8, int i_checkBox1_0, int i_checkBox1_1,
-			int i_checkBox1_2, int i_checkBox1_3, int i_checkBox1_4, int i_checkBox1_5, int i_checkBox1_6,
-			int i_checkBox1_7, int i_checkBox1_8, int i_checkBox1_9, int i_checkBox1_10, int i_checkBox1_11,
-			int i_checkBox2_0, int i_checkBox2_1, int i_checkBox2_2, int i_checkBox2_3, int i_checkBox2_4,
-			int i_checkBox2_5, int i_checkBox3_0, int i_checkBox3_1, int i_checkBox3_2, int i_checkBox3_3,
-			int i_checkBox3_4, int i_checkBox3_5, int i_checkBox4_0, int i_checkBox4_1, int i_checkBox4_2,
-			int i_checkBox4_3, int i_checkBox4_4, int i_checkBox4_5, int i_checkBox4_6, int i_checkBox4_7,
-			int i_checkBox4_8, int i_checkBox4_9, int i_checkBox4_10) {
+			int i_slider_putanna5, int i_putanna6, int i_putanna7, int i_putanna8, String s_DogladKartunka1,
+			String s_DogladKartunka2, String s_DogladKartunka3 ,String s_DogladKartunka4, String s_DogladKartunka5,
+			String s_RekomendaciaText) {
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(800, 600);
@@ -1386,7 +1387,46 @@ public class KimnatneResultatu extends JFrame {
 
 		panel_Doglad = new Panel();
 		tabbedPane.addTab("Догляд", null, panel_Doglad, null);
+		panel_Doglad.setLayout(null);
+		
+		 l_DogladKartunka1 = new JLabel("");
+		l_DogladKartunka1.setBounds(510, 0, 255, 152);
+		l_DogladKartunka1.setIcon(new ImageIcon(s_DogladKartunka1));
+		panel_Doglad.add(l_DogladKartunka1);
+		
+		l_DogladKartunka2 = new JLabel("");
+		l_DogladKartunka2.setBounds(510, 153, 255, 152);
+		l_DogladKartunka2.setIcon(new ImageIcon(s_DogladKartunka2));
+		panel_Doglad.add(l_DogladKartunka2);
+		
+		l_DogladKartunka3 = new JLabel("");
+		l_DogladKartunka3.setBounds(510, 307, 255, 152);
+		l_DogladKartunka3.setIcon(new ImageIcon(s_DogladKartunka3));
+		panel_Doglad.add(l_DogladKartunka3);
+		
+		l_DogladKartunka4 = new JLabel("");
+		l_DogladKartunka4.setBounds(254, 307, 255, 152);
+		l_DogladKartunka4.setIcon(new ImageIcon(s_DogladKartunka4));
+		panel_Doglad.add(l_DogladKartunka4);
+		
+		l_DogladKartunka5 = new JLabel("");
+		l_DogladKartunka5.setBounds(0, 307, 255, 152);
+		l_DogladKartunka5.setIcon(new ImageIcon(s_DogladKartunka5));
+		panel_Doglad.add(l_DogladKartunka5);
+		
+		JScrollPane scrollPane_4 = new JScrollPane();
+		scrollPane_4.setBounds(0, 0, 509, 305);
+		panel_Doglad.add(scrollPane_4);
+		
+		JTextPane textPane_DogladText = new JTextPane();
+		scrollPane_4.setViewportView(textPane_DogladText);
+		textPane_DogladText.setText(s_RekomendaciaText);
 
+		l_fonKupivli = new JLabel("");
+		l_fonKupivli.setBounds(0, 0, 765, 459);
+		l_fonKupivli.setIcon(new ImageIcon("res/fon_KimnatneResultatKupivla.jpg"));
+		panel_Doglad.add(l_fonKupivli);
+		
 		l_fon = new JLabel("");
 		l_fon.setBounds(0, 0, 794, 565);
 		l_fon.setIcon(new ImageIcon("res/fon_KimnatneResultat.jpg"));
