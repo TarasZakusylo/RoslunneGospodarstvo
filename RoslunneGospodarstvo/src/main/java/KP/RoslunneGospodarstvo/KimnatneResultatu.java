@@ -1,7 +1,6 @@
 package KP.RoslunneGospodarstvo;
 
 import java.awt.Color;
-import java.awt.Component;
 import java.awt.Desktop;
 import java.awt.Font;
 import java.awt.Panel;
