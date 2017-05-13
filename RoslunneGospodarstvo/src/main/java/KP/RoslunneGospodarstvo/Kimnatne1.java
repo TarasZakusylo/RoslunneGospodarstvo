@@ -771,7 +771,7 @@ public class Kimnatne1 extends JFrame {
 
 		l_fonVodaOputuvanna = new JLabel("");
 		l_fonVodaOputuvanna.setBounds(0, -1, 794, 565);
-		l_fonVodaOputuvanna.setIcon(new ImageIcon("C:\\Users\\Zakkk\\Desktop\\artleo.com-51610.jpg"));
+		l_fonVodaOputuvanna.setIcon(new ImageIcon("res/fon_Kimnatne1.jpg"));
 		getContentPane().add(l_fonVodaOputuvanna);
 
 		setVisible(true);
