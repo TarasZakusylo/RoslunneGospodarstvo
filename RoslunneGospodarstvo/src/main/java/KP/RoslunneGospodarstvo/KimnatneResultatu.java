@@ -228,7 +228,7 @@ public class KimnatneResultatu extends JFrame {
 		setLocationRelativeTo(null);
 		getContentPane().setLayout(null);
 
-		l_Nazva = new JLabel("Кімнатне розслинництво");
+		l_Nazva = new JLabel("Кімнатне рослинництво");
 		l_Nazva.setBounds(0, 0, 794, 52);
 		l_Nazva.setForeground(Color.RED);
 		l_Nazva.setFont(new Font("Segoe UI", Font.BOLD | Font.ITALIC, 40));
