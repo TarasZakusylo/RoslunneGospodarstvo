@@ -93,7 +93,7 @@ public class Kimnatne extends JFrame {
 		getContentPane().setLayout(null);
 		getContentPane().add(b_Nazad);
 
-		l_Hapka = new JLabel("Будь ласка, пройдіть, , опитування");
+		l_Hapka = new JLabel("Будь ласка, пройдіть, опитування");
 		l_Hapka.setForeground(Color.YELLOW);
 		l_Hapka.setFont(new Font("Palatino Linotype", Font.BOLD | Font.ITALIC, 25));
 		l_Hapka.setHorizontalAlignment(SwingConstants.CENTER);
