@@ -16,7 +16,7 @@ import javax.swing.JSlider;
 import javax.swing.SwingConstants;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-
+ 
 public class Promuslove extends JFrame {
 
 	private static final long serialVersionUID = 1L;
@@ -222,7 +222,7 @@ public class Promuslove extends JFrame {
 					setVisible(false);
 				}
 
-			}
+			} 
 		});
 		b_Dali.setBounds(90, 523, 610, 41);
 		getContentPane().add(b_Dali);

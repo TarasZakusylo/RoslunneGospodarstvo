@@ -1,15 +1,12 @@
 package KP.RoslunneGospodarstvo;
  
 import java.awt.Color;
-import java.awt.Desktop;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.net.URI;
 
-import javax.swing.AbstractButton;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -22,7 +19,7 @@ public class PromusloveMap extends JFrame {
 	private static final long serialVersionUID = 1L; 
 
 	private JButton b_Nazad; 
-
+ 
 	public PromusloveMap(String s, final String s_putanna1,
 			final int i_slider_putanna2, final int i_slider_putanna3, final int i_slider_putanna4,
 			final int i_putanna5) {

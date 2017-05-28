@@ -17,7 +17,7 @@ public class SadovoParkove extends JFrame {
 	private JLabel l_Nazva;
 	private JButton b_Nazad;
 
-	public SadovoParkove(String s) {
+	public SadovoParkove(String s) { 
 		super(s);
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
